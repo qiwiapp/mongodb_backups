@@ -1,10 +1,10 @@
 
 # prod
 old
-curl https://raw.githubusercontent.com/qiwiapp/mongodb_backups/master/old.sh > /var/backup/backup.sh
+curl https://raw.githubusercontent.com/qiwiapp/mongodb_backups/master/old_platform.sh > /var/backup/backup.sh
 
 new
-curl https://raw.githubusercontent.com/qiwiapp/mongodb_backups/master/backup_new_platform.sh > /var/backup/backup.sh
+curl https://raw.githubusercontent.com/qiwiapp/mongodb_backups/master/new_platform.sh > /var/backup/backup.sh
 
 
 
