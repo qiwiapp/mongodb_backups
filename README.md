@@ -10,5 +10,9 @@ curl https://raw.githubusercontent.com/qiwiapp/mongodb_backups/master/new_platfo
 
 sudo nano /etc/crontab
 grep CRON /var/log/syslog
-0 7    * * *   root sh /var/backup/backup.sh
-0 18    * * *   root sh /var/backup/backup.sh
+0 5    * * *   root sh /var/backup/backup.sh
+0 16    * * *   root sh /var/backup/backup.sh
+
+
+# dev
+* *    * * *   root sh /var/backup/backup.sh
