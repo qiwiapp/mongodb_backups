@@ -4,7 +4,7 @@ old
 curl https://raw.githubusercontent.com/qiwiapp/mongodb_backups/master/old.sh > /var/backup/backup.sh
 
 new
-curl https://raw.githubusercontent.com/qiwiapp/mongodb_backups/master/new.sh > /var/backup/backup.sh
+curl https://raw.githubusercontent.com/qiwiapp/mongodb_backups/master/backup_new.sh > /var/backup/backup.sh
 
 
 
