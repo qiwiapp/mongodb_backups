@@ -1,6 +1,6 @@
 #!/bin/sh
 
-main_dir = /var/backup
+main_dir = /var/backup/platform
 dir_day=`date +%d-%m-%Y`
 dir_name=`date +%d-%m-%Y-%R`
 
