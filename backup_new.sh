@@ -1,12 +1,12 @@
 #!/bin/sh
 
-main_dir = /var/backup/platform
+main_dir=/var/backup/platform
 dir_day=`date +%d-%m-%Y`
 dir_name=`date +%d-%m-%Y-%R`
 
 delete_after_days=10
 
-out_name = $main_dir/$dir_day/$dir_name
+out_name=$main_dir/$dir_day/$dir_name
 echo $out_name
 mongodump --db=test --collection=users --out=$out_name
 
