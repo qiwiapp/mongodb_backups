@@ -2,7 +2,7 @@
 
 main_dir=/var/backup/platform
 dir_day=`date +%d-%m-%Y`
-dir_name=`date +%d-%m-%Y-%R`
+dir_name=`date +%R`
 
 delete_after_days=10
 
